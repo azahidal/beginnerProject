@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif
+}
+
+#logo {
+    display: block;
+    margin: auto;
+    padding: 50px;
+    width: 20%;
+}
+
+header {
+    background: url(../img/images.jpg);
+    background-size: cover
+}
+
+.topnav {
+    padding: 10px;
+    overflow: hidden;
+    background: #d1d5e5;
+    letter-spacing: 2px;
+}
+
+ul li {
+    display: inline;
+    list-style-type: none;
+    font-family: 'Caveat', cursive;
+}
+
+ul {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    padding: 12px;
+    color: #fff;
+}
+
+iframe {
+    padding: 160px;
+    display: block;
+    margin: auto;
+}
+
+.merch {
+    padding: 40px;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+}
+
+#merch {
+    color: #d1d5e5;
+}
+
+.merchItems {
+    width: 20%;
+}
+
+.main-section {
+    background: url('../img/images\ \(1\).jpg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h3 {
+    color: #d1d5e5;
+    font-family: 'Rock Salt', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+h4 {
+    font-family: 'Caveat', cursive;
+    color: #9995c9;
+    font-size: 25px;
+}
+
+.blogSection {
+    float: left;
+    padding: 50px;
+    padding-left: 350px;
+    width: 800px;
+    height: 480;
+    background-color: #e2e2e2;
+}
+
+.sidebar{
+    float: right;
+    padding: 40px;
+    width: 620px;
+    height: 500;
+    background: #d1d5e5
+}
+
+.blogStyle{
+height: 500px;
+}
+
+.blogImage{
+    float: left;
+    padding: 5px 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+/* Media Queries */
+
+@media screen and(max-width: 1082px){
+
+}
