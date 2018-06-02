@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Table and Forms</title>
+</head>
+<body>
+    <!-- Beginning of the table -->
+    <!-- ********************** -->
+    <h2>This is our table</h2>
+    <table border="1">
+            <thead>
+                <tr>
+                    <th>Heading 1</th>
+                    <th>Heading 2</th>
+                    <th>Heading 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                </tr>
+                <tr>
+                    <td>Content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Content</td>
+                    <td>Content</td>
+                    <td>Content</td>
+                </tr>
+            </tfoot>
+        </table>
+        <!-- **************** -->
+        <!-- End of the table -->
+
+        <br>
+
+        <!-- Beginning of the first form -->
+        <!-- *************************** -->
+        <h2>Form Example</h2>
+
+        <form action="#">
+            <label for="username">Username:</label>
+            <input type="text" placeholder="Username">
+
+            <label for="password">Password:</label>
+            <input type="password" placeholder="Password">
+
+            <input type="submit" value="Submit">
+        </form>
+        <!-- ********************* -->
+        <!-- End of the first form -->
+
+        <!-- Beginning of the second form -->
+        <!-- *************************** -->
+        <h2>User Message Form Example</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" name="userName" placeholder="Sailor Moon">
+            
+            <label for="email">Email:</label>
+            <input type="email" name="userEmail" placeholder="sailormoon@gmail.com">
+
+            <label for="message">Message:</label>
+            <textarea name="userMessage"></textarea>
+
+            <input type="Submit" value="Submit">
+        </form>
+        <!-- ********************* -->
+        <!-- End of the second form -->
+
+        <!-- Beginning of the third form -->
+        <!-- *************************** -->
+        <h2>Input Types</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" name="userName" placeholder="Sailor Moon">
+
+            <label for="birthday">Birthday:</label>
+            <input type="date" name="bday">
+
+            <br>
+
+            <label for="color">Favorite Color:</label>
+            <input type="color" name="color">
+
+            <br>
+
+            <label for="likes">Likes</label>
+            <input type="checkbox" name"Video Games">Video Games <br>
+            <input type="checkbox" name"Cooking">Cooking <br>
+            <input type="checkbox" name"Coding">Coding <br>
+
+            <br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" value="male" checked>Male <br>
+            <input type="radio" name="gender" value="female" checked>Female <br>
+            <input type="radio" name="gender" value="etc" checked>Other <br>
+
+            <input type="Submit" value="Submit">
+        </form>
+            <!-- ********************* -->
+            <!-- End of the third form -->
+
+
+</body>
+</html>
