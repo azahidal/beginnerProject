@@ -12,6 +12,7 @@
 }
 
 body {
+    text-align: center;
     background-color: #151515;
     color: #edf6ff;
     font-family: 'Gentium Book Basic', serif;
@@ -21,7 +22,6 @@ h1 {
     font-size: 120px;
     padding: 20px;
     text-transform: uppercase;
-    text-align: center;
 }
 
 h2 {
