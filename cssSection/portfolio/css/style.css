@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: block;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    background: darkslategray;
+    color: powderblue;
+}
+
+.body {
+    text-align: center;
+    background: #b5b1a1;
+    overflow-wrap: break-word;
+}
+
+.floatr {
+    width: 120px;
+    height: 100px;
+    float: right;
+    margin-right: 30px;
+    background-color: #adedc3;
+    padding: 15px;
+}
+
+.floatr li{
+    text-transform: none;
+    letter-spacing: 1px;
+}
+
+.floatr ul {
+    text-decoration: none;
+}
+
+.meResize {
+    width: 30%;
+    height: auto;
+}
+
+.footer{
+    position: absolute;
+    bottom:0;
+}
